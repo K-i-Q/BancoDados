@@ -12,9 +12,6 @@ namespace BancoDados
         static void Main(string[] args)
         {
             int menu = 0;
-
-            
-
             do
             {
                 Console.WriteLine("1 - Cadastrar Produto");
