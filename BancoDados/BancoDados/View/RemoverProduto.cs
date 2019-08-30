@@ -12,9 +12,8 @@ namespace BancoDados.View
     {
         public static void Renderizar()
         {
-
-            Produto produto = new Produto();
-            Console.WriteLine("Cadastrar Produto");
+            
+            Console.WriteLine("Remover Produto");
             Console.WriteLine("Digite o nome");
             ProdutoDAO.RemoverProduto(Console.ReadLine().ToLower());
         }

@@ -23,13 +23,11 @@ namespace BancoDados.DAL
         }
         public static Produto BuscarProduto(string nome)
         {
-            Produto find;
             foreach (Produto p in ListarProdutos())
             {
                 if (nome == p.Nome)
                 {
-                    find = p;
-                    return find;
+                    return p;
                 }
             }
             return null;
